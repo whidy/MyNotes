@@ -8,6 +8,9 @@
 
 然后,提取压缩包内的"highlight.pack.js"和"styles"目录,放在一个我稍后想要测试的效果的文件夹中,例如testHighlight,并创建一个测试用的index.html,那么该目录内就有index.html,highlight.pack.js和styles目录了,文件准备妥当,进行下一步.
 
-最后,编辑index.html,按照说明我做了个[DEMO](),引用的是官方的示例代码,需要说明的是,我这里没有把所有的css文件放入styles目录,中间删除了大量的我不会用到的样式,省略,大家可自行通过官方[live demo](http://highlightjs.org/static/test.html)来取舍适量的样式.我这个demo中有个小问题,关于引用html的高亮代码时,由于嵌套关系,他会解析成其他的内容,于是只好将标点其转换成字符编码后,才可正常预览.
+最后,编辑index.html,按照说明我做了个[DEMO](http://www.whidy.net/wordpress-highlight-js-intro.html),引用的是官方的示例代码,需要说明的是,我这里没有把所有的css文件放入styles目录,中间删除了大量的我不会用到的样式,省略,大家可自行通过官方[live demo](http://highlightjs.org/static/test.html)来取舍适量的样式.我这个demo中有个小问题,关于引用html的高亮代码时,由于嵌套关系,他会解析成其他的内容,那么本地测试时只好将标点转换成字符编码后,才可正常预览.当然一般来说wordpress的MCE
 
 于是乎,关于本地静态页面中的highlight.js就算测试完成.接下来我测试整合入wordpress后的效果.
+
+
+为了优美的代码,总是要付出代价的.看来又要把所有日志翻一遍了...
